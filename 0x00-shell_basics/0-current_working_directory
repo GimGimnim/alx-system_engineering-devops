@@ -1,8 +1,1 @@
 ^#!bin/bash
-path=$(realpath "${BASH_SOURCE:-$0}")
-echo 'The absolute path is' $path
-
-echo '______________________________'
-
-DIR_PATH=$(dirname $path)
-echo 'The directory path is' $DPATH
